@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from products.serializers import ProductSerializer
-from products.serializers import UserSerializer
+from product.products.serializers import ProductSerializer
+from product.products.serializers import UserSerializer
 from .models import Cart, CartItem
 
 
